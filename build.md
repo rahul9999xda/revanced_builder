@@ -5,6 +5,7 @@ Music (arm-v7a): 8.05.50
 Music-Extended (arm64-v8a): 8.05.50  
 Music-Extended (arm-v7a): 8.05.50  
 Music-Extended-Stable (arm64-v8a): 8.02.53  
+Music-Extended-Stable (arm-v7a): 8.02.53  
 Music-Stable (arm64-v8a): 7.29.52  
 Music-Stable (arm-v7a): 7.29.52  
 YouTube: 20.05.44  
