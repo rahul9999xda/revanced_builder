@@ -1,6 +1,6 @@
 {
-  "version": "v20.05.44 (patches: 5.11.0)",
-  "versionCode": 2,
-  "zipUrl": "https://github.com/rahul9999xda/revanced_builder/releases/download/2/youtube-revanced-magisk-v20.05.44-all.zip",
+  "version": "v20.06.36 (patches: 5.11.0)",
+  "versionCode": 4,
+  "zipUrl": "https://github.com/rahul9999xda/revanced_builder/releases/download/4/youtube-revanced-magisk-v20.06.36-all.zip",
   "changelog": "https://raw.githubusercontent.com/rahul9999xda/revanced_builder/update/build.md"
 }
