@@ -1,15 +1,14 @@
-GooglePhotos (arm64-v8a): 7.24.0.746524260  
-GooglePhotos (arm-v7a): 7.24.0.746524260  
+GooglePhotos (arm64-v8a): 7.24.0.747539053  
+GooglePhotos (arm-v7a): 7.24.0.747539053  
 Music (arm64-v8a): 8.14.53  
 Music (arm-v7a): 8.14.53  
 Music-Extended (arm64-v8a): 8.14.53  
 Music-Extended (arm-v7a): 8.14.53  
 Music-Extended-Stable (arm64-v8a): 8.05.51  
-Music-Extended-Stable (arm-v7a): 8.05.51  
 Music-Stable (arm64-v8a): 8.05.51  
 Music-Stable (arm-v7a): 8.05.51  
-YouTube: 20.14.41  
-YouTube-Extended: 20.14.41  
+YouTube: 20.14.43  
+YouTube-Extended: 20.14.43  
 YouTube-Extended-Stable: 19.47.53  
 YouTube-Stable: 20.07.39  
 
@@ -23,5 +22,5 @@ Patches: inotia00/patches-5.6.2.rvp
 [Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v5.6.2)
 
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: ReVanced/patches-5.19.1.rvp  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.19.1)  
+Patches: ReVanced/patches-5.20.0.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.20.0)  
