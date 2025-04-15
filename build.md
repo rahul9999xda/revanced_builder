@@ -5,8 +5,10 @@ Music (arm-v7a): 8.14.53
 Music-Extended (arm64-v8a): 8.14.53  
 Music-Extended (arm-v7a): 8.14.53  
 Music-Extended-Stable (arm64-v8a): 8.05.51  
+Music-Extended-Stable (arm-v7a): 8.05.51  
 Music-Stable (arm64-v8a): 8.05.51  
 Music-Stable (arm-v7a): 8.05.51  
+Spotify: 9.0.36.683  
 YouTube: 20.14.43  
 YouTube-Extended: 20.14.43  
 YouTube-Extended-Stable: 19.47.53  
@@ -22,5 +24,5 @@ Patches: inotia00/patches-5.6.2.rvp
 [Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v5.6.2)
 
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: ReVanced/patches-5.20.0.rvp  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.20.0)  
+Patches: ReVanced/patches-5.20.1.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.20.1)  
