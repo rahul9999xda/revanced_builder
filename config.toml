@@ -33,6 +33,7 @@ uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 
 [Spotify]
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+version = "9.0.36.683"
 
 # dont build on gh actions (https://github.com/j-hc/revanced-magisk-module/issues/554)
 [Music-Extended]
@@ -57,6 +58,14 @@ build-mode = "both"
 version = "latest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+[Reddit-Extended]
+enabled = true
+app-name = "Reddit"
+patches-source = "inotia00/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit"
 
 [Twitch]
 enabled = false
