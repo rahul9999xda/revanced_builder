@@ -1,9 +1,9 @@
-GooglePhotos (arm64-v8a): 7.32.0.765953717  
-GooglePhotos (arm-v7a): 7.32.0.765953717  
+GooglePhotos (arm64-v8a): 7.33.0.769298726  
 Music (arm64-v8a): 8.05.51  
 Music (arm-v7a): 8.05.51  
 Music-Extended (arm64-v8a): 8.12.53  
 Music-Extended (arm-v7a): 8.12.53  
+Spotify: 9.0.54.74  
 YouTube: 20.12.46  
 YouTube-Extended: 19.47.53  
 
