@@ -1,6 +1,6 @@
 {
-  "version": "v7.35.0.774533729 (patches 5.29.0)",
-  "versionCode": 12,
-  "zipUrl": "https://github.com/rahul9999xda/revanced_builder/releases/download/12/googlephotos-revanced-magisk-v7.35.0.774533729-arm-v7a.zip",
+  "version": "v7.35.0.778148202 (patches 5.30.0)",
+  "versionCode": 15,
+  "zipUrl": "https://github.com/rahul9999xda/revanced_builder/releases/download/15/googlephotos-revanced-magisk-v7.35.0.778148202-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/rahul9999xda/revanced_builder/update/build.md"
 }
