@@ -1,3 +1,4 @@
+GooglePhotos (arm64-v8a): 7.38.0.785903005  
 Music (arm64-v8a): 8.05.51  
 Music (arm-v7a): 8.05.51  
 Music-Extended (arm64-v8a): 8.12.53  
