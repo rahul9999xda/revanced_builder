@@ -1,6 +1,6 @@
 {
-  "version": "v8.31.52 (patches 5.33.0)",
-  "versionCode": 39,
-  "zipUrl": "https://github.com/rahul9999xda/revanced_builder/releases/download/39/music-revanced-magisk-v8.31.52-arm-v7a.zip",
+  "version": "v8.31.53 (patches 5.33.0)",
+  "versionCode": 40,
+  "zipUrl": "https://github.com/rahul9999xda/revanced_builder/releases/download/40/music-revanced-magisk-v8.31.53-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/rahul9999xda/revanced_builder/update/build.md"
 }
