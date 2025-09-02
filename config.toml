@@ -42,7 +42,6 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 arch = "both"
-version = "8.12.53"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 
 [YouTube-Extended]
