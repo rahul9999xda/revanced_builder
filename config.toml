@@ -29,6 +29,13 @@ version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 
+[Amazon Prime Video]
+enabled = true
+build-mode = "apk"
+arch = "arm64-v8a"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/amazon-mobile-llc/amazon-prime-video/"
+included-patches = "'Rename shared permissions'"
+
 [Spotify]
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
