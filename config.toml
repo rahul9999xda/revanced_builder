@@ -22,6 +22,17 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
+[YouTube-Morphe-Experimental]
+enabled = true
+app-name = "YouTube"
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "ReVanced Morphe Beta"
+build-mode = "apk"
+version = "21.08.265"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+
 [Music]
 build-mode = "both"
 arch = "both"
@@ -40,6 +51,18 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
+[Music-Morphe-Experimental]
+enabled = true
+arch = "arm64-v8a"
+app-name = "Music"
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "ReVanced Morphe Beta"
+build-mode = "apk"
+version = "9.06.51"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+
 [Reddit-Morphe]
 app-name = "Reddit"
 rv-brand = "Morphe"
@@ -52,9 +75,10 @@ uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 dpi = "120-640dpi"
 
 [GooglePhotos]
-enabled = false
 build-mode = "both"
-arch = "both"
+patches-version = "v5.50.3-dev.4"
+arch = "arm64-v8a"
+version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
