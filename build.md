@@ -1,11 +1,11 @@
 GooglePhotos: 7.64.0.873168826  
 Music: 8.10.52  
 Music-Morphe: 8.40.54  
-Music-Morphe-Experimental: 9.06.51  
+Music-Morphe-Experimental: 9.08.51  
 Reddit-Morphe: 2026.04.0  
 YouTube: 20.14.43  
 YouTube-Morphe: 20.40.45  
-YouTube-Morphe-Experimental: 21.08.265  
+YouTube-Morphe-Experimental: 21.08.270  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music modules from Play Store  
