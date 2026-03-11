@@ -57,6 +57,7 @@ uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 dpi = "120-640dpi"
 
 [GooglePhotos]
+enabled = false
 build-mode = "both"
 cli-version = "v6.0.0-dev.2"
 patches-version = "v6.0.0-dev.24"
@@ -120,3 +121,24 @@ build-mode = "apk"
 version = "latest"
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+
+[Solid-Explorer]
+enabled = false
+patches-source = "hoo-dles/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Morphe"
+uptodown-dlurl = "https://solid-explorer-file-manager.en.uptodown.com/android"
+
+[Prime-Video]
+enabled = false
+patches-source = "hoo-dles/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+version = "latest"
+rv-brand = "Morphe"
+uptodown-dlurl = "https://amazon-video.en.uptodown.com/android"
+
+[Telegram-Web]
+enabled = false
+patches-source = "Aunali321/ReVancedExperiments"
+rv-brand = "aunali321"
+uptodown-dlurl = "https://telegram.en.uptodown.com/android"
