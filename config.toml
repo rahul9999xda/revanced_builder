@@ -58,6 +58,7 @@ dpi = "120-640dpi"
 
 [GooglePhotos]
 build-mode = "both"
+cli-version = "v6.0.0-dev.2"
 patches-version = "v6.0.0-dev.24"
 arch = "arm64-v8a"
 version = "auto"
