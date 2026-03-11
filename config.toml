@@ -57,9 +57,10 @@ uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 dpi = "120-640dpi"
 
 [GooglePhotos]
-enabled = false
 build-mode = "both"
-arch = "both"
+patches-version = "v6.0.0-dev.24"
+arch = "arm64-v8a"
+version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
@@ -97,7 +98,7 @@ enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
 
 [YouTube-Morphe-Experimental]
-enabled = true
+enabled = false
 app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
@@ -108,7 +109,7 @@ version = "latest"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [Music-Morphe-Experimental]
-enabled = true
+enabled = false
 arch = "arm64-v8a"
 app-name = "Music"
 patches-source = "MorpheApp/morphe-patches"
