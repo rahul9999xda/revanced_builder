@@ -131,11 +131,11 @@ uptodown-dlurl = "https://solid-explorer-file-manager.en.uptodown.com/android"
 
 [Prime-Video]
 enabled = true
-patches-source = "hoo-dles/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
-version = "latest"
-rv-brand = "Morphe"
-included-patches = "'Add resources'"
+#patches-source = "hoo-dles/morphe-patches"
+#cli-source = "MorpheApp/morphe-cli"
+version = "3.0.421.1347"
+#rv-brand = "Morphe"
+#included-patches = "'Add resources'"
 uptodown-dlurl = "https://amazon-video.en.uptodown.com/android"
 
 [Telegram-Web]
