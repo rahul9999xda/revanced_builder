@@ -57,15 +57,14 @@ uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 dpi = "120-640dpi"
 
 [GooglePhotos]
-enabled = false
-build-mode = "both"
-cli-version = "v6.0.0-dev.2"
-patches-version = "v6.0.0-dev.24"
+enabled = true
+build-mode = "apk"
+patches-version = "v5.48.0"
 arch = "arm64-v8a"
 version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
+#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
 
 [Spotify]
 enabled = false
@@ -131,11 +130,11 @@ uptodown-dlurl = "https://solid-explorer-file-manager.en.uptodown.com/android"
 
 [Prime-Video]
 enabled = true
-#patches-source = "hoo-dles/morphe-patches"
-#cli-source = "MorpheApp/morphe-cli"
-version = "3.0.421.1347"
-#rv-brand = "Morphe"
-#included-patches = "'Add resources'"
+patches-source = "hoo-dles/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+version = "latest"
+rv-brand = "Morphe"
+included-patches = "'Add resources'"
 uptodown-dlurl = "https://amazon-video.en.uptodown.com/android"
 
 [Telegram-Web]
