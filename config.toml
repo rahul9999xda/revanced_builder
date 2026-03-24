@@ -127,7 +127,6 @@ uptodown-dlurl = "https://amazon-video.en.uptodown.com/android"
 [Solid-Explorer]
 enabled = true
 patches-source = "hoo-dles/morphe-patches"
-patches-version = "v1.15.0-dev.2"
 cli-source = "MorpheApp/morphe-cli"
 version = "latest"
 rv-brand = "Morphe"
