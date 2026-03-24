@@ -131,3 +131,10 @@ cli-source = "MorpheApp/morphe-cli"
 version = "latest"
 rv-brand = "Morphe"
 uptodown-dlurl = "https://solid-explorer-file-manager.en.uptodown.com/android"
+
+[Telegram]
+enabled = true
+patches-source = "Aunali321/ReVancedExperiments"
+cli-source = "ReVanced/revanced-cli"
+version = "latest"
+uptodown-dlurl = "https://telegram.en.uptodown.com/android"
