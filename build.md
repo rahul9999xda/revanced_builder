@@ -1,4 +1,10 @@
+Music-Morphe: 8.44.54  
+Music-Morphe-Experimental: 9.12.51  
+Prime-Video: 3.0.446.1757  
+Solid-Explorer: 3.4.3  
 Telegram: 12.5.2  
+YouTube-Morphe: 20.45.36  
+YouTube-Morphe-Experimental: 21.12.524  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music modules from Play Store  
@@ -7,4 +13,11 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and
   
 CLI: ReVanced/revanced-cli-6.0.0-all.jar  
 Patches: Aunali321/patches-2.0.0.rvp  
-[Changelog](https://github.com/Aunali321/ReVancedExperiments/releases/tag/v2.0.0)  
+[Changelog](https://github.com/Aunali321/ReVancedExperiments/releases/tag/v2.0.0)
+
+Patches: hoo-dles/patches-1.15.0.mpp  
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.15.0)
+
+CLI: MorpheApp/morphe-cli-1.6.2-all.jar  
+Patches: MorpheApp/patches-1.21.1.mpp  
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.21.1)  
