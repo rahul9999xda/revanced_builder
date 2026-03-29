@@ -24,7 +24,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 
 [Music]
 build-mode = "both"
-arch = "both"
+arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
@@ -35,12 +35,13 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
 build-mode = "both"
-arch = "both"
+arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [Reddit-Morphe]
+enabled = true
 app-name = "Reddit"
 rv-brand = "Morphe"
 build-mode = "both"
@@ -52,8 +53,10 @@ uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 dpi = "120-640dpi"
 
 [GooglePhotos]
+enabled = true
 build-mode = "both"
-arch = "both"
+arch = "arm64-v8a"
+version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
@@ -89,3 +92,49 @@ arch = "arm64-v8a"
 [IconPackStudio]
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
+
+[YouTube-Morphe-Experimental]
+enabled = true
+app-name = "YouTube"
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "ReVanced Morphe Experimental"
+build-mode = "apk"
+version = "latest"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+
+[Music-Morphe-Experimental]
+enabled = true
+arch = "arm64-v8a"
+app-name = "Music"
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "ReVanced Morphe Experimental"
+build-mode = "apk"
+version = "latest"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+
+[Prime-Video]
+enabled = true
+patches-source = "hoo-dles/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+version = "latest"
+rv-brand = "Morphe"
+uptodown-dlurl = "https://amazon-video.en.uptodown.com/android"
+
+[Solid-Explorer]
+enabled = true
+patches-source = "hoo-dles/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+version = "latest"
+rv-brand = "Morphe"
+uptodown-dlurl = "https://solid-explorer-file-manager.en.uptodown.com/android"
+
+[Telegram]
+enabled = true
+patches-source = "Aunali321/ReVancedExperiments"
+cli-source = "ReVanced/revanced-cli"
+version = "latest"
+uptodown-dlurl = "https://telegram.en.uptodown.com/android"
