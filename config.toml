@@ -121,7 +121,7 @@ version = "latest"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
 [Prime-Video]
-enabled = false
+enabled = true
 patches-source = "hoo-dles/morphe-patches"
 patches-version = "v1.17.0-dev.1"
 cli-source = "MorpheApp/morphe-cli"
@@ -130,7 +130,7 @@ rv-brand = "Morphe"
 uptodown-dlurl = "https://amazon-video.en.uptodown.com/android"
 
 [Solid-Explorer]
-enabled = true
+enabled = false
 patches-source = "hoo-dles/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 version = "latest"
