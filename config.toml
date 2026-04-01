@@ -52,7 +52,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 dpi = "120-640dpi"
 
-[GooglePhotos]
+[GooglePhotos-Morphe]
 enabled = true
 rv-brand = "Morphe"
 patches-source = "RookieEnough/De-ReVanced"
