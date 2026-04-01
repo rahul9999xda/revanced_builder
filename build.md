@@ -23,5 +23,5 @@ Patches: MorpheApp/patches-1.22.0.mpp
 
 CLI: ReVanced/revanced-cli-6.0.0-all.jar  
 CLI: MorpheApp/morphe-cli-1.6.3-all.jar  
-Patches: RookieEnough/patches-1.0.1.mpp  
-[Changelog](https://github.com/RookieEnough/De-ReVanced/releases/tag/v1.0.1)  
+Patches: RookieEnough/patches-1.0.2.mpp  
+[Changelog](https://github.com/RookieEnough/De-ReVanced/releases/tag/v1.0.2)  
