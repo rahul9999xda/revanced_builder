@@ -3,7 +3,7 @@ Music-Morphe: 8.44.54
 Music-Morphe-Experimental: 9.13.50  
 Prime-Video: 3.0.448.457  
 Solid-Explorer: 3.4.5  
-Telegram: 12.6.2  
+Telegram: 12.6.3  
 YouTube-Morphe: 20.45.36  
 YouTube-Morphe-Experimental: 21.13.163  
 
