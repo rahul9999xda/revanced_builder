@@ -5,7 +5,7 @@ Prime-Video: 3.0.448.457
 Solid-Explorer: 3.4.5  
 Telegram: 12.6.3  
 YouTube-Morphe: 20.45.36  
-YouTube-Morphe-Experimental: 21.13.163  
+YouTube-Morphe-Experimental: 21.14.484  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music modules from Play Store  
