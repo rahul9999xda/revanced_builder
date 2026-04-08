@@ -1,7 +1,8 @@
-GooglePhotos: 7.70.0.893169212  
+GooglePhotos: 7.71.0.895417930  
 Music-Morphe: 8.44.54  
-Music-Morphe-Experimental: 9.13.50  
-Prime-Video: 3.0.448.457  
+Music-Morphe-Experimental: 9.13.51  
+Prime-Video: 3.0.449.257  
+Proton-VPN: 5.17.21.0  
 Solid-Explorer: 3.4.5  
 Telegram: 12.6.3  
 YouTube-Morphe: 20.45.36  
