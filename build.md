@@ -1,5 +1,6 @@
 GooglePhotos: 7.70.0.893169212  
 Music-Morphe: 8.44.54  
+Music-Morphe-Experimental: 9.13.50  
 Prime-Video: 3.0.448.457  
 Solid-Explorer: 3.4.5  
 Telegram: 12.6.3  
@@ -14,8 +15,8 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and
 Patches: Aunali321/patches-2.0.0.rvp  
 [Changelog](https://github.com/Aunali321/ReVancedExperiments/releases/tag/v2.0.0)
 
-Patches: hoo-dles/patches-1.21.0.mpp  
-[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.21.0)
+Patches: hoo-dles/patches-1.22.0.mpp  
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.22.0)
 
 Patches: MorpheApp/patches-1.22.0.mpp  
 [Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.22.0)
