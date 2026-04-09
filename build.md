@@ -4,7 +4,7 @@ Music-Morphe-Experimental: 9.13.51
 Prime-Video: 3.0.449.257  
 Proton-VPN: 5.17.21.0  
 Solid-Explorer: 3.4.5  
-Telegram: 12.6.3  
+Telegram: 12.6.4  
 YouTube-Morphe: 20.45.36  
 YouTube-Morphe-Experimental: 21.13.164  
 
