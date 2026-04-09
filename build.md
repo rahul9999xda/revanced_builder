@@ -19,8 +19,8 @@ Patches: Aunali321/patches-2.0.0.rvp
 Patches: hoo-dles/patches-1.22.0.mpp  
 [Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.22.0)
 
-Patches: MorpheApp/patches-1.22.0.mpp  
-[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.22.0)
+Patches: MorpheApp/patches-1.23.0.mpp  
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.23.0)
 
 CLI: ReVanced/revanced-cli-6.0.0-all.jar  
 CLI: MorpheApp/morphe-cli-1.6.3-all.jar  
