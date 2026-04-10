@@ -1,12 +1,12 @@
-GooglePhotos: 7.71.0.895417930  
+GooglePhotos: 7.71.0.896539910  
 Music-Morphe: 8.44.54  
-Music-Morphe-Experimental: 9.13.51  
+Music-Morphe-Experimental: 9.14.51  
 Prime-Video: 3.0.449.257  
 Proton-VPN: 5.17.21.0  
 Solid-Explorer: 3.4.5  
 Telegram: 12.6.4  
 YouTube-Morphe: 20.45.36  
-YouTube-Morphe-Experimental: 21.13.164  
+YouTube-Morphe-Experimental: 21.14.484  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music modules from Play Store  
