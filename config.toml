@@ -142,7 +142,7 @@ rv-brand = "Morphe"
 uptodown-dlurl = "https://solid-explorer-file-manager.en.uptodown.com/android"
 
 [Proton-VPN]
-enabled = true
+enabled = false
 patches-source = "hoo-dles/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 version = "latest"
@@ -155,3 +155,11 @@ patches-source = "Aunali321/ReVancedExperiments"
 cli-source = "ReVanced/revanced-cli"
 version = "latest"
 uptodown-dlurl = "https://telegram.en.uptodown.com/android"
+
+[Microsoft-Excel]
+enabled = true
+patches-source = "polka-bear/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+version = "latest"
+rv-brand = "Morphe"
+uptodown-dlurl = "https://microsoft-excel-preview.en.uptodown.com/android"
