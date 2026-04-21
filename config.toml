@@ -104,7 +104,7 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "ReVanced Morphe Experimental"
 build-mode = "apk"
-version = "21.14.485"
+version = "21.15.291"
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
