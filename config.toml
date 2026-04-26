@@ -137,7 +137,7 @@ rv-brand = "Morphe"
 uptodown-dlurl = "https://solid-explorer-file-manager.en.uptodown.com/android"
 
 [Telegram]
-enabled = true
+enabled = false
 patches-source = "Paresh-Maheshwari/paresh-patches"
 cli-source = "ReVanced/revanced-cli"
 #version = "latest"
@@ -145,7 +145,7 @@ rv-brand = "Morphe"
 uptodown-dlurl = "https://telegram.en.uptodown.com/android"
 
 [Truecaller]
-enabled = true
+enabled = false
 patches-source = "Paresh-Maheshwari/paresh-patches"
 cli-source = "ReVanced/revanced-cli"
 #version = "latest"
