@@ -143,6 +143,13 @@ cli-source = "ReVanced/revanced-cli"
 version = "latest"
 uptodown-dlurl = "https://telegram.en.uptodown.com/android"
 
+[Truecaller]
+enabled = true
+patches-source = "Paresh-Maheshwari/paresh-patches"
+cli-source = "ReVanced/revanced-cli"
+#version = "latest"
+archive-dlurl = "https://archive.org/download/geologically/apks/com.truecaller"
+
 [Proton-VPN]
 enabled = true
 patches-source = "hoo-dles/morphe-patches"
