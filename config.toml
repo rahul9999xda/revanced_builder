@@ -176,6 +176,6 @@ uptodown-dlurl = "https://telegram.en.uptodown.com/android"
 enabled = true
 patches-source = "Paresh-Maheshwari/paresh-patches"
 cli-source = "ReVanced/revanced-cli"
-#version = "latest"
+version = "auto"
 rv-brand = "Morphe"
 archive-dlurl = "https://archive.org/download/geologically/apks/com.truecaller"
