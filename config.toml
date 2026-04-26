@@ -149,13 +149,6 @@ version = "latest"
 rv-brand = "Morphe"
 uptodown-dlurl = "https://protonvpn.en.uptodown.com/android"
 
-[Telegram]
-enabled = false
-patches-source = "Aunali321/ReVancedExperiments"
-cli-source = "ReVanced/revanced-cli"
-version = "latest"
-uptodown-dlurl = "https://telegram.en.uptodown.com/android"
-
 [Microsoft-Excel]
 enabled = false
 patches-source = "polka-bear/morphe-patches"
