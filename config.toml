@@ -157,9 +157,25 @@ version = "latest"
 uptodown-dlurl = "https://telegram.en.uptodown.com/android"
 
 [Microsoft-Excel]
-enabled = true
+enabled = false
 patches-source = "polka-bear/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 version = "latest"
 rv-brand = "Morphe"
 uptodown-dlurl = "https://microsoft-excel-preview.en.uptodown.com/android"
+
+[Telegram]
+enabled = false
+patches-source = "Paresh-Maheshwari/paresh-patches"
+cli-source = "ReVanced/revanced-cli"
+#version = "latest"
+rv-brand = "Morphe"
+uptodown-dlurl = "https://telegram.en.uptodown.com/android"
+
+[Truecaller]
+enabled = true
+patches-source = "Paresh-Maheshwari/paresh-patches"
+cli-source = "ReVanced/revanced-cli"
+#version = "latest"
+rv-brand = "Morphe"
+archive-dlurl = "https://archive.org/download/geologically/apks/com.truecaller"
