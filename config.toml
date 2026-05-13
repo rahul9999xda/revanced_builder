@@ -7,12 +7,14 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
+enabled = false
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [YouTube-Morphe]
+enabled = false
 app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
@@ -23,6 +25,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Music]
+enabled = false
 build-mode = "both"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
@@ -30,6 +33,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [Music-Morphe]
+enabled = false
 app-name = "Music"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
@@ -41,6 +45,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [Reddit-Morphe]
+enabled = false
 app-name = "Reddit"
 rv-brand = "Morphe"
 build-mode = "both"
@@ -52,6 +57,7 @@ uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 dpi = "120-640dpi"
 
 [Twitter]
+enabled = false
 patches-source = "crimera/piko"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Piko"
@@ -62,7 +68,7 @@ version = "11.81.0-release.0"
 include-stock = "split"
 
 [GooglePhotos]
-enabled = true
+enabled = false
 rv-brand = "Morphe"
 patches-source = "RookieEnough/De-ReVanced"
 #patches-version = "v1.17.0-dev.1"
@@ -80,7 +86,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 
 [YouTube-Morphe-Experimental]
-enabled = true
+enabled = false
 app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
@@ -91,7 +97,7 @@ version = "21.18.168"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [Music-Morphe-Experimental]
-enabled = true
+enabled = false
 arch = "arm64-v8a"
 app-name = "Music"
 patches-source = "MorpheApp/morphe-patches"
@@ -103,7 +109,7 @@ version = "latest"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
 [Prime-Video]
-enabled = true
+enabled = false
 patches-source = "hoo-dles/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 version = "latest"
@@ -111,7 +117,7 @@ rv-brand = "Morphe"
 uptodown-dlurl = "https://amazon-video.en.uptodown.com/android"
 
 [Solid-Explorer]
-enabled = true
+enabled = false
 patches-source = "hoo-dles/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 version = "latest"
@@ -119,7 +125,7 @@ rv-brand = "Morphe"
 uptodown-dlurl = "https://solid-explorer-file-manager.en.uptodown.com/android"
 
 [Proton-VPN]
-enabled = true
+enabled = false
 patches-source = "hoo-dles/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 version = "latest"
