@@ -20,5 +20,5 @@ Patches: MorpheApp/patches-1.27.0.mpp
 [Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.27.0)
 
 CLI: MorpheApp/morphe-cli-1.8.1-all.jar  
-Patches: RookieEnough/patches-1.0.3.mpp  
-[Changelog](https://github.com/RookieEnough/De-ReVanced/releases/tag/v1.0.3)  
+Patches: RookieEnough/patches-1.0.4.mpp  
+[Changelog](https://github.com/RookieEnough/De-ReVanced/releases/tag/v1.0.4)  
