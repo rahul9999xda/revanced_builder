@@ -62,13 +62,66 @@ version = "11.81.0-release.0"
 include-stock = "split"
 
 [GooglePhotos]
+enabled = true
+rv-brand = "Morphe"
+patches-source = "RookieEnough/De-ReVanced"
+#patches-version = "v1.17.0-dev.1"
+cli-source = "MorpheApp/morphe-cli"
 build-mode = "both"
-arch = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
+arch = "arm64-v8a"
+version = "latest"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
+#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
 
 [Twitch]
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
+
+[YouTube-Morphe-Experimental]
+enabled = true
+app-name = "YouTube"
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "ReVanced Morphe Experimental"
+build-mode = "apk"
+version = "21.18.168"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+
+[Music-Morphe-Experimental]
+enabled = true
+arch = "arm64-v8a"
+app-name = "Music"
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "ReVanced Morphe Experimental"
+build-mode = "apk"
+version = "latest"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+
+[Prime-Video]
+enabled = true
+patches-source = "hoo-dles/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+version = "latest"
+rv-brand = "Morphe"
+uptodown-dlurl = "https://amazon-video.en.uptodown.com/android"
+
+[Solid-Explorer]
+enabled = true
+patches-source = "hoo-dles/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+version = "latest"
+rv-brand = "Morphe"
+uptodown-dlurl = "https://solid-explorer-file-manager.en.uptodown.com/android"
+
+[Proton-VPN]
+enabled = true
+patches-source = "hoo-dles/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+version = "latest"
+rv-brand = "Morphe"
+uptodown-dlurl = "https://protonvpn.en.uptodown.com/android"
