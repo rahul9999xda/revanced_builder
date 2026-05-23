@@ -1,6 +1,6 @@
 GooglePhotos: 7.77.0.916869048  
 Music-Morphe: 8.47.56  
-Music-Morphe-Experimental: 9.19.50  
+Music-Morphe-Experimental: 9.20.52  
 Prime-Video: 3.0.456.257  
 Proton-VPN: 5.18.46.0  
 Reddit-Morphe: 2026.10.0  
@@ -13,8 +13,8 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
-Patches: hoo-dles/patches-1.32.0.mpp  
-[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.32.0)
+Patches: hoo-dles/patches-1.33.0.mpp  
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.33.0)
 
 Patches: MorpheApp/patches-1.29.0.mpp  
 [Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.29.0)
