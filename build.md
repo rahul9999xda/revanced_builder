@@ -1,4 +1,4 @@
-GooglePhotos: 7.78.0.920664585  
+GooglePhotos: 7.79.0.924379438  
 Music-Morphe: 8.47.56  
 Music-Morphe-Experimental: 9.22.53  
 Prime-Video: 3.0.458.357  
