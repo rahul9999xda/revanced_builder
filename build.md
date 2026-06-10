@@ -1,6 +1,6 @@
-GooglePhotos: 7.79.0.924379438  
+GooglePhotos: 7.79.1.929394759  
 Music-Morphe: 8.47.56  
-Music-Morphe-Experimental: 9.22.53  
+Music-Morphe-Experimental: 9.23.52  
 Prime-Video: 3.0.458.447  
 Reddit-Morphe: 2026.14.0  
 Solid-Explorer: 3.4.10  
