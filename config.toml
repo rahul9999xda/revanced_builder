@@ -101,7 +101,7 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "ReVanced Morphe Experimental"
 build-mode = "apk"
-version = "latest"
+version = "9.22.53"
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
