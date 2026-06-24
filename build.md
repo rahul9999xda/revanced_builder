@@ -1,4 +1,4 @@
-GooglePhotos: 7.81.0.932521513  
+GooglePhotos: 7.82.0.936266860  
 Music-Morphe: 9.15.51  
 Prime-Video: 3.0.460.747  
 Proton-VPN: 5.18.84.0  
