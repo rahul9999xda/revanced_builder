@@ -106,7 +106,7 @@ cli-source = "MorpheApp/morphe-cli"
 #patches-version = "v1.33.0-dev.10"
 rv-brand = "Morphe Experimental"
 build-mode = "apk"
-version = "9.29.54"
+version = "latest"
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
