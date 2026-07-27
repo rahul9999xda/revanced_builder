@@ -1,4 +1,5 @@
 Music-Morphe-Experimental: 9.29.54  
+YouTube-Morphe-Experimental: 21.29.368  
 
 Install [Microg](https://github.com/MorpheApp/MicroG-RE/) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music modules from Play Store  
