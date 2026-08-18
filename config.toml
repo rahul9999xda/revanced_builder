@@ -22,7 +22,7 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
 build-mode = "both"
-arch = "both"
+arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
@@ -40,6 +40,7 @@ dpi = "120-640dpi"
 
 [GooglePhotos]
 build-mode = "both"
+arch = "arm64-v8a"
 patches-source = "RookieEnough/De-Vanced"
 cli-source = "MorpheApp/morphe-cli"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
@@ -75,3 +76,46 @@ include-stock = "split"
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
+
+[YouTube-Morphe-Experimental]
+enabled = true
+app-name = "YouTube"
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+#patches-version = "v1.33.0-dev.10"
+rv-brand = "Morphe Experimental"
+build-mode = "apk"
+version = "latest"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+[Music-Morphe-Experimental]
+enabled = true
+arch = "arm64-v8a"
+app-name = "Music"
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+#patches-version = "v1.33.0-dev.10"
+rv-brand = "Morphe Experimental"
+build-mode = "apk"
+version = "latest"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+
+[Prime-Video]
+enabled = true
+patches-source = "hoo-dles/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+version = "latest"
+rv-brand = "Morphe"
+uptodown-dlurl = "https://amazon-video.en.uptodown.com/android"
+
+[Solid-Explorer]
+enabled = true
+patches-source = "hoo-dles/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+version = "latest"
+rv-brand = "Morphe"
+uptodown-dlurl = "https://solid-explorer-file-manager.en.uptodown.com/android"
