@@ -1,4 +1,4 @@
-GooglePhotos: 7.88.0.966185373  
+GooglePhotos: 7.89.0.966319819  
 Music-Morphe: 9.15.51  
 Music-Morphe-Experimental: 9.30.52  
 Reddit-Morphe: 2026.14.0  
