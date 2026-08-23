@@ -1,4 +1,4 @@
-GooglePhotos: 7.89.0.966319819  
+GooglePhotos: 7.89.0.968035987  
 Music-Morphe: 9.15.51  
 Music-Morphe-Experimental: 9.30.52  
 Reddit-Morphe: 2026.14.0  
@@ -19,4 +19,4 @@ Patches: MorpheApp/patches-1.39.1.mpp
 Patches: RookieEnough/patches-1.2.2.mpp  
 [Changelog](https://github.com/RookieEnough/De-Vanced/releases/tag/v1.2.2)
 
-CLI: MorpheApp/morphe-desktop-1.13.1-all.jar    
+CLI: MorpheApp/morphe-desktop-1.13.2-all.jar    
