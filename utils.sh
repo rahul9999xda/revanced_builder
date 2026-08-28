@@ -463,88 +463,52 @@ get_apkmirror_resp() {
 
 # -------------------- uptodown --------------------
 get_uptodown_resp() {
-	__UPTODOWN_RESP__=$(req "${1}/versions" -) || return 1
-	__UPTODOWN_RESP_PKG__=$(req "${1}/download" -) || return 1
+	local url=$1
+	# Uptodown retired the /versions endpoint (HTTP 410).
+	__UPTODOWN_RESP__=$(req "$url" -) || return 1
+	__UPTODOWN_RESP_PKG__=$(req "${url}/download" -) || return 1
 }
 get_uptodown_vers() { $HTMLQ --text ".version" <<<"$__UPTODOWN_RESP__"; }
 dl_uptodown() {
 	local uptodown_dlurl=$1 version=$2 output=$3 arch=$4 _dpi=$5
 	if [ "$arch" = "arm-v7a" ]; then arch="armeabi-v7a"; fi
-
 	local apparch=('arm64-v8a, armeabi-v7a, x86_64' 'arm64-v8a, armeabi-v7a, x86, x86_64' 'arm64-v8a, armeabi-v7a')
-	if [ "$arch" != "all" ]; then
-		apparch=("$arch" "${apparch[@]}")
-	fi
-
-	local op resp data_code
+	if [ "$arch" != "all" ]; then apparch=("$arch" "${apparch[@]}"); fi
+	local op resp data_code versionURL="" is_bundle=false
 	data_code=$($HTMLQ "#detail-app-name" --attribute data-code <<<"$__UPTODOWN_RESP__")
-	if [ -z "$data_code" ]; then
-		epr "Uptodown: application data-code not found"
-		return 1
-	fi
-
-	local versionURL=""
-	local is_bundle=false
+	[ -z "$data_code" ] && data_code=$($HTMLQ "#detail-app-name" --attribute code <<<"$__UPTODOWN_RESP__")
+	if [ -z "$data_code" ]; then epr "Uptodown: application code not found"; return 1; fi
 	for i in {1..50}; do
 		resp=$(req "${uptodown_dlurl}/apps/${data_code}/versions/${i}" -) || continue
-		if ! op=$(jq -e -r ".data | map(select(.version == \"${version}\")) | .[0]" <<<"$resp"); then
-			continue
-		fi
-		if [ "$(jq -e -r ".kindFile" <<<"$op")" = "xapk" ]; then is_bundle=true; fi
-		if versionURL=$(jq -e -r '.versionURL' <<<"$op"); then break; fi
+		if ! op=$(jq -e -r ".data | map(select(.version == \"${version}\")) | .[0]" <<<"$resp"); then continue; fi
+		[ "$(jq -e -r .kindFile <<<"$op")" = "xapk" ] && is_bundle=true
+		if versionURL=$(jq -e -r .versionURL <<<"$op"); then break; fi
 	done
-
-	if [ -z "$versionURL" ]; then
-		epr "Uptodown: version '${version}' not found"
-		return 1
-	fi
-
+	if [ -z "$versionURL" ]; then epr "Uptodown: version '${version}' not found"; return 1; fi
 	versionURL=$(jq -e -r '.url + "/" + .extraURL + "/" + (.versionID | tostring)' <<<"$versionURL") || return 1
 	resp=$(req "$versionURL" -) || return 1
-
 	local data_version files node_arch="" data_file_id node_class
 	data_version=$($HTMLQ '.button.variants' --attribute data-version <<<"$resp") || return 1
-
 	if [ "$data_version" ]; then
 		files=$(req "${uptodown_dlurl%/*}/app/${data_code}/version/${data_version}/files" - | jq -e -r .content) || return 1
-		for ((n = 1; n < 12; n += 1)); do
+		for ((n=1;n<12;n+=1)); do
 			node_class=$($HTMLQ -w -t ".content > :nth-child($n)" --attribute class <<<"$files") || return 1
-			if [ "$node_class" != "variant" ]; then
-				node_arch=$($HTMLQ -w -t ".content > :nth-child($n)" <<<"$files" | xargs) || return 1
-				continue
-			fi
+			if [ "$node_class" != "variant" ]; then node_arch=$($HTMLQ -w -t ".content > :nth-child($n)" <<<"$files" | xargs) || return 1; continue; fi
 			if [ -z "$node_arch" ]; then return 1; fi
 			if ! isoneof "$node_arch" "${apparch[@]}"; then continue; fi
-
 			file_type=$($HTMLQ -w -t ".content > :nth-child($n) > .v-file > span" <<<"$files") || return 1
-			if [ "$file_type" = "xapk" ]; then is_bundle=true; else is_bundle=false; fi
+			[ "$file_type" = "xapk" ] && is_bundle=true || is_bundle=false
 			data_file_id=$($HTMLQ ".content > :nth-child($n) > .v-report" --attribute data-file-id <<<"$files") || return 1
-			if [ -z "$data_file_id" ]; then continue; fi
-
-			# Current Uptodown endpoint uses the file ID directly.
-			# The legacy "-x" suffix can result in HTTP 404.
+			[ -z "$data_file_id" ] && continue
 			resp=$(req "${uptodown_dlurl}/download/${data_file_id}" -) || return 1
 			break
 		done
-		if [ $n -ge 12 ]; then
-			epr "Uptodown: compatible architecture '${arch}' not found for version '${version}'"
-			return 1
-		fi
+		if [ $n -ge 12 ]; then epr "Uptodown: compatible architecture '${arch}' not found for version '${version}'"; return 1; fi
 	fi
-
 	local data_url
 	data_url=$($HTMLQ "#detail-download-button" --attribute data-url <<<"$resp") || return 1
-	if [ -z "$data_url" ]; then
-		epr "Uptodown: download data-url not found"
-		return 1
-	fi
-
-	if [ "$is_bundle" = true ]; then
-		req "https://dw.uptodown.com/dwn/${data_url}" "$output.apkm" || return 1
-		merge_splits "${output}.apkm" "${output}"
-	else
-		req "https://dw.uptodown.com/dwn/${data_url}" "$output" || return 1
-	fi
+	if [ -z "$data_url" ]; then epr "Uptodown: download data-url not found"; return 1; fi
+	if [ "$is_bundle" = true ]; then req "https://dw.uptodown.com/dwn/${data_url}" "$output.apkm" || return 1; merge_splits "${output}.apkm" "${output}"; else req "https://dw.uptodown.com/dwn/${data_url}" "$output" || return 1; fi
 }
 get_uptodown_pkg_name() { $HTMLQ --text "tr.full:nth-child(1) > td:nth-child(3)" <<<"$__UPTODOWN_RESP_PKG__"; }
 
