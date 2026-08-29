@@ -471,10 +471,10 @@ get_apkmirror_resp() {
 		-sS \
 		-c "$TEMP_DIR/cookie.txt" \
 		-b "$TEMP_DIR/cookie.txt" \
+		--compressed \
 		-A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" \
 		-H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8" \
 		-H "Accept-Language: en-US,en;q=0.9" \
-		-H "Accept-Encoding: gzip, deflate, br" \
 		-H "Upgrade-Insecure-Requests: 1" \
 		-H "Sec-Fetch-Dest: document" \
 		-H "Sec-Fetch-Mode: navigate" \
@@ -494,6 +494,14 @@ get_apkmirror_resp() {
 		return 1
 	fi
 
+	# Bash variables cannot contain NUL bytes; curl --compressed above ensures
+	# gzip/br encoded HTML is decoded before it is assigned here.
+	if LC_ALL=C grep -q $'\\0' "$body_file" 2>/dev/null; then
+		epr "APKMirror returned binary/NUL-containing content"
+		epr "Response body preview (hex):"
+		hexdump -C "$body_file" | head -20 >&2 || true
+		return 1
+	fi
 	__APKMIRROR_RESP__=$(cat "$body_file") || return 1
 	__APKMIRROR_CAT__="${url##*/}"
 
