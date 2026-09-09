@@ -52,7 +52,7 @@ patches-source = "crimera/piko-newx"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Piko"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-version = "12.22.0-prod.01"
+version = "latest"
 included-patches = "'NewX: Restore Twitter branding'"
 
 [Music]
