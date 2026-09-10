@@ -15,6 +15,7 @@ build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+enable-update-checks = true
 
 [Music-Morphe]
 app-name = "Music"
@@ -54,6 +55,7 @@ rv-brand = "Piko"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 version = "latest"
 included-patches = "'NewX: Restore Twitter branding'"
+enable-update-checks = true
 
 [Music]
 enabled = false
