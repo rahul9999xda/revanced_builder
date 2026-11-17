@@ -1,6 +1,8 @@
+GooglePhotos: 7.92.0.977185651  
 Music-Morphe: 9.30.53  
 Music-Morphe-Experimental: 9.45.51  
 Reddit-Morphe: 2026.40.0  
+Twitter: 12.41.0-prod.01  
 YouTube-Morphe: 21.30.216  
 YouTube-Morphe-Experimental: 21.45.82  
 
@@ -9,12 +11,16 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach YouTube and
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
-Patches: MorpheApp/morphe-patches/patches-2.2.0.mpp  
-[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v2.2.0)
+Patches: crimera/piko-newx/patches-3.75.0.mpp  
+[Changelog](https://github.com/crimera/piko-newx/releases/tag/v3.75.0)
 
-CLI: MorpheApp/morphe-cli/morphe-desktop-2.1.1-all.jar    
+Patches: hoo-dles/morphe-patches/patches-1.47.0.mpp  
+[Changelog](https://github.com/hoo-dles/morphe-patches/releases/tag/v1.47.0)
 
-Skipped:  
+Patches: MorpheApp/morphe-patches/patches-2.3.0.mpp  
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v2.3.0)
+
 Patches: RookieEnough/De-Vanced/patches-1.6.4.mpp  
-Patches: hoo-dles/morphe-patches/patches-1.47.0.mpp                                      
-Patches: crimera/piko-newx/patches-3.75.0.mpp    
+[Changelog](https://github.com/RookieEnough/De-Vanced/releases/tag/v1.6.4)
+
+CLI: MorpheApp/morphe-cli/morphe-desktop-2.2.0-all.jar    
